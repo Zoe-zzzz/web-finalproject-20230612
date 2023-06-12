@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+.button{
+    width: 600px;
+    text-align: left;
+    padding: 20px;
+}
+.bgb{
+    position: absolute;
+    right: 65%;
+    background-color: rgba(215, 179, 179, 0.364);
+    color: #aaa;
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
+}
+#result{
+    width: 400px;
+    height:500px;
+    background-color: #aaa;
+    margin: auto;
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    border-radius: 15px;
+}
