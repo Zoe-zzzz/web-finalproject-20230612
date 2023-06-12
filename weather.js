@@ -1,5 +1,5 @@
 var lat1=0,lon1=0;
-let weartherAPI_URL="http://api.openweathermap.org/data/2.5/weather?";
+let weartherAPI_URL="https://api.openweathermap.org/data/2.5/weather?";
 let weatherMapAPIKey="2fc3a1bbf75edff6a8c7d705c6bdcadd";
 $(function(){
     load();
