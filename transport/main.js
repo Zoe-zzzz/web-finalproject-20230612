@@ -60,7 +60,7 @@ function result(position){
             `<p>溫馨提示:請多喝水</p>`
         );
     }
-    if(data.weather[0].description=="下雨")
+    if(data.weather[0].description=="小雨")
     {
         $("#result").append(
             `<p>請記得帶傘</p>`
