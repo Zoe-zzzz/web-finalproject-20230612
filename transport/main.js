@@ -1,8 +1,8 @@
 let address=[{name:"桃園",lat:24.9910989,long:121.3074997,add:"330桃園市桃園區中正路61號9F-12F"},
-    {name:"高雄",lat:22.6130672,long:121.305311,add:"802高雄市苓雅區三多四路21號13-15樓"},
-    {name:"台中",lat:24.1646419,long:120.4921829,add:"407台中市西屯區臺灣大道三段251號13樓"},
-    {name:"台北",lat:25.0356037,long:121.4148397,add:"110台北市信義區松壽路20號"},
-    {name:"台南",lat:22.9953658,long:120.0536341,add:"700台南市中西區公園路60號"},
+    {name:"高雄",lat:22.6130672,long:120.3014837,add:"802高雄市苓雅區三多四路21號13-15樓"},
+    {name:"台中",lat:24.1646419,long:120.6420433,add:"407台中市西屯區臺灣大道三段251號13樓"},
+    {name:"台北",lat:25.0356037,long:121.5647001,add:"110台北市信義區松壽路20號"},
+    {name:"台南",lat:22.9953658,long:120.2034945,add:"700台南市中西區公園路60號"},
 ]
 let weartherAPI_URL="https://api.openweathermap.org/data/2.5/weather?";
 let weatherMapAPIKey="2fc3a1bbf75edff6a8c7d705c6bdcadd";
@@ -23,6 +23,7 @@ function getLocation(){
 }
 function result(position){
     let thisCoords=position.coords;
+    $("#result").css("display","block");
     $("#result").empty();
     console.log(`Location:${thisCoords.latitude},${thisCoords.longitude}`);
     let lastone=Math.abs(thisCoords.latitude-address[0].lat),finalmax=0;

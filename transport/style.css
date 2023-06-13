@@ -16,12 +16,21 @@ body{
     border: none;
 }
 #result{
+    display: none;
     width: 400px;
-    height:500px;
-    background-color: #aaa;
+    /* height:500px; */
+    background-color: #aaaaaa5f;
     margin: auto;
     position: absolute;
     top: 18%;
     right: 10%;
     border-radius: 15px;
+    padding:20px;
+}
+#bb{
+    background-color: rgba(215, 179, 179, 0.364);
+    /* color: #aaa; */
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
 }
