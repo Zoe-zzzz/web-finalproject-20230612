@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mental game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>What kind of movie do you like</h1><br>
+        <div id="startdiv" style="display: none;">
+        <label for="choice" id="question">我是題目</label><br><br>
+        <input type="radio" value="1" name="choice">1分
+        <input type="radio" value="2" name="choice">2分
+        <input type="radio" value="3" name="choice">3分
+        <input type="radio" value="4" name="choice">4分
+        <input type="radio" value="5" name="choice">5分<br><br>
+        <button id="retest">RESET</button>
+        <button id="next">NEXT</button>
+        </div> 
+        <div id="giveresult" style="display: none;">
+            <h2 id="resulth">我是結果人格</h2>
+            <p id="resultp">巴拉巴拉巴拉</p>
+            <button id="reset">RESET</button>
+        </div>
+        <button id="startbutton">Start</button>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+        <script src="data.js"></script>
+        <script src="main.js"></script>

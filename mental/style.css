@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+#startbutton,#retest,#next,#reset{
+border: none;
+border-radius: 15px;
+padding: 7px;
+margin: 20px;
+}

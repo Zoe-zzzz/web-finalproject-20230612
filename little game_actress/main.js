@@ -1,6 +1,6 @@
 let resource=[
     [
-        ["Nicloe Kidman","Actress/IMG_5869.JPG"],
+        ["Nicloe Kidman","Actress/IMG_5869.jpg"],
         ["Winona Ryder","Actress/IMG_1101.JPG"],
         ["Uma Thurman","Actress/IMG_5851.JPG"],
         ["Jolia Roberts","Actress/IMG_5852.JPG"],
